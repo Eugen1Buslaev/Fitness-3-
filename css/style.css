@@ -1,0 +1,154 @@
+
+
+body{
+	background-color: #f9f9f9;
+
+}
+
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 1px; 
+	background-color: white;
+	
+	
+}
+
+.logo{
+    
+	margin-left: 50px;
+	margin-top: 50px;
+
+}
+
+.menu{
+	width: 90%;
+	height: 40px;
+	background-color: #4f4f4f;
+	margin-left: 50px;
+	margin-top: 50px;
+	box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;  /* не применяется, выяснить причину*/
+	
+}
+
+.menu li{
+
+	display: inline-block;
+	padding: 13px 35px 10px 70px;
+	font-family: tahoma, serif;
+	font-size: 15px;
+	color: white;
+	box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;   /* не применяется, выяснить причину*/
+	
+
+}
+
+.menu li:first-child{
+	padding-left: 30px;
+}
+
+.menu li:hover{
+	background-color: #424242;
+	cursor: pointer;
+	border-right: 1px solid grey;
+	/*border-left: 1px solid grey;*/
+	box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box; 
+	
+
+
+}
+.menu ul{
+font-size: 0px;
+
+
+}
+
+
+.nav ul{
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 250px;
+	border:1px solid grey;
+}
+
+.nav li{
+     border-bottom: 1px solid grey;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     padding-left: 20px;
+     font-family: tahoma, serif;
+     color: grey;
+
+     
+}
+
+.nav li:hover{
+	background-color: grey;
+	padding-left: 45px;
+	color: white;
+	cursor: pointer;
+	
+}
+
+.nav li:last-child{
+	border-bottom: none;
+}
+
+
+.content{
+	width: 675px;
+	float: right;
+	margin-right: 65px;
+	margin-top: 50px;
+}
+
+.bicycle{
+	border: 1px solid grey;
+}
+
+.text{
+	width: 650px;
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-family: tahoma, serif;
+
+}
+
+footer{
+	clear: both;
+	width: 90%;
+	height: 40px;
+	background-color: #e1e1e1;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	box-sizing: border-box;  
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;  /* не применяется, выяснить причину*/
+}
+
+footer li{
+	display: inline-block;
+	padding: 15px 20px 15px 30px;
+	font-family: tahoma, serif;
+	font-size: 12px;
+}
+
+
+
+footer li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+footer li:last-child{
+	padding-left: 400px;
+	text-decoration: none;
